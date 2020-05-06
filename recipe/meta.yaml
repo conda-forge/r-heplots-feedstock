@@ -14,7 +14,7 @@ source:
   sha256: 964629cba7feadbf3ac223e417310016e86067da4bbf11ad3c213e63ee74d0ef
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   merge_build_host: True  # [win]
   rpaths:
@@ -22,7 +22,7 @@ build:
     - lib/
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-mass
