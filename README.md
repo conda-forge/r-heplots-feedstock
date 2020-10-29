@@ -3,7 +3,7 @@ About r-heplots
 
 Home: http://datavis.ca/R/index.php#heplots
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-heplots-feedstock/blob/master/LICENSE.txt)
 
