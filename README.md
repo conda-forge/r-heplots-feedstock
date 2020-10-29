@@ -5,11 +5,9 @@ Home: http://datavis.ca/R/index.php#heplots
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-heplots-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides HE plot and other functions for visualizing hypothesis tests in multivariate linear models. HE plots represent sums-of-squares-and- products matrices for linear hypotheses and for error using ellipses (in two dimensions) and ellipsoids (in three dimensions). The related 'candisc' package provides visualizations in a reduced-rank canonical discriminant space when there are more than a few response variables.
-
-
 
 Current build status
 ====================
