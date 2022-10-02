@@ -1,4 +1,4 @@
-{% set version = "1.3-9" %}
+{% set version = "1.4-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/heplots_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/heplots/heplots_{{ version }}.tar.gz
-  sha256: 9d19b3941d8239c2d78b2a898c350faac5b42632fa8421450778df1c1ef29225
+  sha256: 4024741eab786921a8414fab6b5a28a0b24e33f40480615d669f711de9819448
 
 build:
   merge_build_host: true  # [win]
