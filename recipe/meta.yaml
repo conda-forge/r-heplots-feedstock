@@ -25,10 +25,12 @@ requirements:
     - r-base
     - r-mass
     - r-car >=3.0
+    - r-rgl
   run:
     - r-base
     - r-mass
     - r-car >=3.0
+    - r-rgl
 
 test:
   commands:
