@@ -1,4 +1,4 @@
-{% set version = "1.7.1" %}
+{% set version = "1.7.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/heplots_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/heplots/heplots_{{ version }}.tar.gz
-  sha256: 7c809da8b6746cd926b5a96fbbb851a98dd340ebd2fe1c391c7bf478c6a7334d
+  sha256: 6431872dfe504bb933c77d980eff16feb79ec2a67be4b9fa097d1702a313aba7
 
 build:
   number: 0
