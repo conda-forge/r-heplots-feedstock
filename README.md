@@ -3,11 +3,11 @@ About r-heplots-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-heplots-feedstock/blob/main/LICENSE.txt)
 
-Home: http://datavis.ca/R/index.php#heplots
+Home: https://friendly.github.io/heplots/
 
 Package license: GPL-2.0-or-later
 
-Summary: Provides HE plot and other functions for visualizing hypothesis tests in multivariate linear models. HE plots represent sums-of-squares-and- products matrices for linear hypotheses and for error using ellipses (in two dimensions) and ellipsoids (in three dimensions). The related 'candisc' package provides visualizations in a reduced-rank canonical discriminant space when there are more than a few response variables.
+Summary: Provides HE plot and other functions for visualizing hypothesis tests in multivariate linear models. HE plots represent sums-of-squares-and-products matrices for linear hypotheses and for error using ellipses (in two dimensions) and ellipsoids (in three dimensions). It also provides other tools for analysis and graphical display of the models such as robust methods and homogeneity of variance covariance matrices. The related 'candisc' package provides visualizations in a reduced-rank canonical discriminant space when there are more than a few response variables.
 
 Current build status
 ====================
