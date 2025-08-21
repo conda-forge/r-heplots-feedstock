@@ -21,16 +21,25 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-mass
-    - r-car >=3.0
+    - r-broom
+    - r-car
+    - r-magrittr
+    - r-purrr
     - r-rgl
+    - r-tibble
   run:
     - r-base
     - r-mass
-    - r-car >=3.0
+    - r-broom
+    - r-car
+    - r-magrittr
+    - r-purrr
     - r-rgl
+    - r-tibble
 
 test:
   commands:
@@ -38,10 +47,15 @@ test:
     - "\"%R%\" -e \"library('heplots')\""  # [win]
 
 about:
-  home: http://datavis.ca/R/index.php#heplots
+  home: https://friendly.github.io/heplots/
   license: GPL-2.0-or-later
-  summary: Provides HE plot and other functions for visualizing hypothesis tests in multivariate linear models. HE plots represent sums-of-squares-and- products matrices for linear hypotheses and for error using ellipses (in two dimensions) and ellipsoids (in three dimensions). The related 'candisc' package provides visualizations
-    in a reduced-rank canonical discriminant space when there are more than a few response variables.
+  summary: Provides HE plot and other functions for visualizing hypothesis tests in multivariate
+    linear models. HE plots represent sums-of-squares-and-products matrices for linear
+    hypotheses and for error using ellipses (in two dimensions) and ellipsoids (in three
+    dimensions). It also provides other tools for analysis and graphical display of
+    the models such as robust methods and homogeneity of variance covariance matrices.
+    The related 'candisc' package provides visualizations in a reduced-rank canonical
+    discriminant space when there are more than a few response variables.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
