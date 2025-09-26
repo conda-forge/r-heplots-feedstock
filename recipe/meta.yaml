@@ -22,6 +22,7 @@ requirements:
   build:
     - {{ posix }}zip               # [win]
   host:
+    - libgl-devel                  # [linux]
     - r-base
     - r-mass
     - r-car >=3.0
